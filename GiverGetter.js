@@ -5,7 +5,7 @@
     if(typeof gg.opts === "undefined"){
       gg.opts = {};
     }
-    // debug: if true inititalize getters immediately; default true
+    // debug: if true log and throw non-essential things; default true
     if(typeof gg.opts.debug === "undefined" || typeof console === "undefined"){
       gg.opts.debug = true;
     }
